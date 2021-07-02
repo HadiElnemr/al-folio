@@ -24,3 +24,4 @@ Team members: David Eskoundos, Hadi Elnemr, Ahmed Shaban. (Left to right)
 
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/mctr_project/team.jpeg' | relative_url }}" alt="" title="example image"/>
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6815256221537316864" height="762" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fahmed.elshemy.73550%2Fposts%2F2921194368094841&show_text=true&width=500" width="500" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
