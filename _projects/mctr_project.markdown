@@ -23,3 +23,4 @@ I learnt a lot from my teammates and friends and I am glad that we had this grea
 Team members: David Eskoundos, Hadi Elnemr, Ahmed Shaban. (Left to right)
 
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/mctr_project/team.jpeg' | relative_url }}" alt="" title="example image"/>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6815256221537316864" height="762" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
