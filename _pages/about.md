@@ -16,5 +16,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-A third year student with experience in engineering design and analysis, programming and co-teaching. Interested in machine learning, robotics, embedded systems, university teaching and research.
+A fourth year student with experience in engineering design and analysis, programming and co-teaching. Interested in machine learning, robotics, embedded systems, university teaching and research.
 
