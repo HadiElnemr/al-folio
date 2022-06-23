@@ -12,7 +12,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 icon: 🎓 # the emoji used as the favicon
 url: 'https://hadielnemr.github.io/' # the base hostname & protocol for your site
@@ -45,16 +44,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: HadiElnemr # your GitHub user name
 twitter_username: # your Twitter handle
-facebook_username: hadi.elnimr
+facebook_username: https://www.facebook.com/hadi.elnimr/
 linkedin_username: Hadi-Elnemr # your LinkedIn user name
 youtube_channel: UC_04k57VCkx_Ve3M49r7zxA
 facebook_username: hadi.elnimr
-scholar_userid: # your Google Scholar ID
+scholar_userid: lRR2jpsAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Hadi_Elnemr # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
