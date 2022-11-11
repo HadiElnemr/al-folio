@@ -18,5 +18,5 @@ social: false  # includes social icons at the bottom of the page
 
 A fourth year bachelor in mechatronics engineering student with experience in porgramming, autonomous vehicle systems, engineering design and analysis, programming and co-teaching. Interested in autonomous vehicles, machine learning, robotics, embedded systems, university teaching and research.
 
-Doing my bachelor thesis in RWTH Aachen, Germany. The thesis addresses the field of autonomous vehicles, specifically the map-matching problem of the vehicle. The thesis' title is "Lane-level Map Matching Algorithm for Model-scale Vehicles". 
+Did my bachelor thesis in RWTH Aachen, Germany. The thesis addressed the field of autonomous vehicles, specifically the map-matching problem of the vehicle. The thesis title was "Lane-level Map Matching Algorithm for Model-scale Vehicles".
 
