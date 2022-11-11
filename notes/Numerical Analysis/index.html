@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Hadi A. Elnemr | blank</title>
+<title>Hadi A. Elnemr | Numerical Analysis</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/notes/Numerical%20Analysis/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -106,7 +106,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -191,8 +191,8 @@
               CV
             </a>
           </li>
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -211,54 +211,34 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Numerical Analysis</h1>
+    <p class="post-description">ENME 602</p>
+  </header>
+
+  <article>
+    <p>These are some notes written in markdown regarding the subject. Contributions are welcome indeed.
+/br
+In this course several important numerical techniques are studied to solve different problems that are difficult to sove analytically or even impossible, or to solve equations in faster ways.
+/br</p>
+<h1>Bisection Method</h1>
+<p>If you have a continuous function that has a root in an interval <script type="math/tex">[a,b]</script> where <script type="math/tex">% <![CDATA[
+f(a) * f(b) < 0 %]]></script>, then the root can be found.</p>
+
+<h2>Algorithm</h2>
+<ol>
+  <li>Calculate c, the midpoint of the interval, 
+<script type="math/tex">c = (a + b)/2</script>.</li>
+  <li>Calculate the function value at the midpoint, <script type="math/tex">f(c)</script>.</li>
+  <li>If convergence is satisfactory (that is, <script type="math/tex">c - a</script> is sufficiently small, or <script type="math/tex">abs(f(c))</script> is sufficiently small), return c and stop iterating.</li>
+  <li>Examine the sign of f(c) and replace either <script type="math/tex">(a, f(a))</script> or <script type="math/tex">(b, f(b))</script> with <script type="math/tex">(c, f(c))</script> so that there is a zero crossing within the new interval.</li>
+</ol>
+
+<h2>Analysis</h2>
+<p>To calculate number of needed iterations <script type="math/tex">n</script> to reach absolute error tolerance <script type="math/tex">\epsilon = |c_{n}-c|\geq {\frac {|b-a|}{2^{n}}}</script>, so number of iterations should be at least <script type="math/tex">n \geq \log_2{\frac{|b-a|}{c_{n}-c}}</script>.</p>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/My-Thesis/">My Thesis!</a></h3>
-        <p class="post-meta">June 23, 2022</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/Thesis/">Bachelor Thesis in Germany for a GUC student</a></h3>
-        <p class="post-meta">March 24, 2022</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/Eclipse-AtMega328p/">Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio</a></h3>
-        <p class="post-meta">July 16, 2021</p>
-        <p></p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
+  </article>
 
 </div>
 
@@ -269,8 +249,8 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2022 Hadi A. Elnemr.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    © Copyright 2022 Hadi A. Elnemr.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
     
     

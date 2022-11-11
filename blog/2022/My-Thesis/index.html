@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Hadi A. Elnemr | blank</title>
+<title>Hadi A. Elnemr | My Thesis!</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2022/My-Thesis/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -191,8 +191,8 @@
               CV
             </a>
           </li>
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -209,56 +209,56 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2></h2>
-  </div>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">My Thesis!</h1>
+    <p class="post-meta">June 23, 2022</p>
+  </header>
+
+  <article class="post-content">
+    <p>My bachelor thesis topic’s name is <em>Lane-level Map Matching for Model-scale Vehicles</em>, doing it at <a href="https://www.rwth-aachen.de/" target="_blank" rel="noopener noreferrer">RWTH Aachen</a>, Germany.</p>
+
+<p>The exposé for my topic is here:</p>
+<object data="https://hadielnemr.github.io/Expose_Elnemr.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://hadielnemr.github.io/Expose_Elnemr.pdf"></embed>
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://hadielnemr.github.io/Expose_Elnemr.pdf">Download PDF</a>.</p>
+    &lt;/embed&gt;
+</object>
+
+<p>This opportunity was provided by <a href="https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:alrifaee" target="_blank" rel="noopener noreferrer">Dr.-Ing. Bassam Alrifae</a> and my work was supervised by <a href="https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:schaefer" target="_blank" rel="noopener noreferrer">Simon Schäfer M.Sc.</a>, and the work is done under the <a href="https://embedded.rwth-aachen.de/doku.php?id=en:forschung:mobility" target="_blank" rel="noopener noreferrer">Cyber-Physical Mobility Group</a></p>
+
+<p>The map matching problem arises in the field of autonomous vehicles where the position of a vehicle is obtained using GNSS sensors on the vehicle.
+Like many types of sensors, GNSS data involves errors arising from the idea of how satellites work to find the position of a moving vehicle.
+Map matching a moving vehicle to an HD map using this distorted GNSS data is well known challenge.
+Many algorithms where implemented and tested to address this specific problem.</p>
+
+<p>An approach using Hidden Markov Model algorithm was implemented and tested by <a href="https://dl.acm.org/doi/abs/10.1145/1653771.1653818" target="_blank" rel="noopener noreferrer">Newson and Krumm, 2009</a> which was successful and paved the road for many papers later that addressed this problem.</p>
+
+<p>The work be Newson and Krumm is considered to be <em>road-level</em> map matching.</p>
+
+<p>In this thesis, the objective is to implement the HMM algorithm so support <em>lane-level</em> map matching using GNSS data and data acquired by the vehicle itself such the heading, yaw rate etc.</p>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/My-Thesis/">My Thesis!</a></h3>
-        <p class="post-meta">June 23, 2022</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/Thesis/">Bachelor Thesis in Germany for a GUC student</a></h3>
-        <p class="post-meta">March 24, 2022</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/Eclipse-AtMega328p/">Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio</a></h3>
-        <p class="post-meta">July 16, 2021</p>
-        <p></p>
-      </li>
-    
-  </ul>
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = 'Hadi Elnemr';
+      var disqus_identifier = '/blog/2022/My-Thesis';
+      var disqus_title      = "My Thesis!";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank" rel="noopener noreferrer">comments powered by Disqus.</a>
+</noscript>
+  
 
 </div>
 
@@ -269,8 +269,8 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2022 Hadi A. Elnemr.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    © Copyright 2022 Hadi A. Elnemr.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
     
     
